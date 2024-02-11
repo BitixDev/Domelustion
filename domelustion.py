@@ -47,7 +47,7 @@ async def main(client):
     await client.start()
 
     # Load version info from GitHub
-    response = requests.get('https://raw.githubusercontent.com/BitixDev/Domelustion/main/Version.json')
+    response = requests.get('https://raw.githubusercontent.com/BitixDev/Domelustion/main/version.json')
     if response.status_code == 200:
         version_data = response.json()
         print_header(version_data.get('version', 'Неизвестно'), version_data.get('update_available', False))
