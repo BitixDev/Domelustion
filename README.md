@@ -1,8 +1,3 @@
-```markdown
-# Domelustion
-
-![Логотип Domelustion](https://raw.githubusercontent.com/BitixDev/Domelustion/main/logo.png)
-
 Domelustion - это скрипт на Python, который помогает управлять вашим аккаунтом в Telegram, выполняя различные задачи, такие как очистка чатов без администраторов, выход из каналов без владельцев и удаление ботов из вашего аккаунта.
 
 ## Особенности
